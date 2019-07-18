@@ -1,0 +1,270 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHIPSEC_H	include/chipsec.h	22;"	d
+CHIPSEC_VER_	chipsec_km.c	40;"	d	file:
+CHIPSEC_VER_MINOR	chipsec_km.c	41;"	d	file:
+CONTEXT	chipsec_km.c	/^} CONTEXT, *PCONTEXT;$/;"	t	typeref:struct:tagCONTEXT	file:
+CPUID_CTX	chipsec_km.c	/^typedef CONTEXT CPUID_CTX, *PCPUID_CTX;$/;"	t	file:
+CPU_DT_CODE_GDTR	include/chipsec.h	/^  CPU_DT_CODE_GDTR = 0x1,$/;"	e	enum:__anon1
+CPU_DT_CODE_IDTR	include/chipsec.h	/^  CPU_DT_CODE_IDTR = 0x0,$/;"	e	enum:__anon1
+CPU_DT_CODE_LDTR	include/chipsec.h	/^  CPU_DT_CODE_LDTR = 0x2,$/;"	e	enum:__anon1
+DEBUG	include/chipsec.h	68;"	d
+DESCRIPTOR_TABLE_RECORD	include/chipsec.h	/^} DESCRIPTOR_TABLE_RECORD, *PDESCRIPTOR_TABLE_RECORD;$/;"	t	typeref:struct:_DESCRIPTOR_TABLE_RECORD
+DTR_CODE	include/chipsec.h	/^} DTR_CODE;$/;"	t	typeref:enum:__anon1
+DisableInterrupts	amd64/cpu.asm	/^DisableInterrupts:$/;"	l
+IOCTL_ALLOC_PHYSMEM	include/chipsec.h	41;"	d
+IOCTL_BASE	include/chipsec.h	29;"	d
+IOCTL_CPUID	include/chipsec.h	36;"	d
+IOCTL_FREE_PHYSMEM	include/chipsec.h	50;"	d
+IOCTL_GET_CPU_DESCRIPTOR_TABLE	include/chipsec.h	37;"	d
+IOCTL_GET_EFIVAR	include/chipsec.h	42;"	d
+IOCTL_HYPERCALL	include/chipsec.h	38;"	d
+IOCTL_LOAD_UCODE_PATCH	include/chipsec.h	40;"	d
+IOCTL_MSGBUS_SEND_MESSAGE	include/chipsec.h	49;"	d
+IOCTL_NUM	include/chipsec.h	27;"	d
+IOCTL_RDCR	include/chipsec.h	44;"	d
+IOCTL_RDIO	include/chipsec.h	30;"	d
+IOCTL_RDMMIO	include/chipsec.h	46;"	d
+IOCTL_RDMSR	include/chipsec.h	34;"	d
+IOCTL_RDPCI	include/chipsec.h	32;"	d
+IOCTL_SET_EFIVAR	include/chipsec.h	43;"	d
+IOCTL_SWSMI	include/chipsec.h	39;"	d
+IOCTL_VA2PA	include/chipsec.h	48;"	d
+IOCTL_WRCR	include/chipsec.h	45;"	d
+IOCTL_WRIO	include/chipsec.h	31;"	d
+IOCTL_WRMMIO	include/chipsec.h	47;"	d
+IOCTL_WRMSR	include/chipsec.h	35;"	d
+IOCTL_WRPCI	include/chipsec.h	33;"	d
+KERNEL_SRC_DIR	Makefile	/^KERNEL_SRC_DIR ?= \/lib\/modules\/`uname -r`\/build$/;"	m
+M	Makefile	/^	make -C $(KERNEL_SRC_DIR) M=${CURDIR} clean$/;"	m
+MACHINE	Makefile	/^MACHINE ?= $(shell uname -m)$/;"	m
+MCR	include/chipsec.h	59;"	d
+MCRX	include/chipsec.h	61;"	d
+MDR	include/chipsec.h	60;"	d
+MSGBUS_BUS	include/chipsec.h	55;"	d
+MSGBUS_DEV	include/chipsec.h	56;"	d
+MSGBUS_FUN	include/chipsec.h	57;"	d
+MSGBUS_MDR_IN_MASK	include/chipsec.h	63;"	d
+MSGBUS_MDR_OUT_MASK	include/chipsec.h	64;"	d
+MSR_IA32_BIOS_SIGN_ID	include/chipsec.h	25;"	d
+MSR_IA32_BIOS_UPDT_TRIG	include/chipsec.h	24;"	d
+PCONTEXT	chipsec_km.c	/^} CONTEXT, *PCONTEXT;$/;"	t	typeref:struct:tagCONTEXT	file:
+PCPUID_CTX	chipsec_km.c	/^typedef CONTEXT CPUID_CTX, *PCPUID_CTX;$/;"	t	file:
+PDESCRIPTOR_TABLE_RECORD	include/chipsec.h	/^} DESCRIPTOR_TABLE_RECORD, *PDESCRIPTOR_TABLE_RECORD;$/;"	t	typeref:struct:_DESCRIPTOR_TABLE_RECORD
+PHYSICAL_ADDRESS	include/chipsec.h	/^} PHYSICAL_ADDRESS;$/;"	t	typeref:union:__anon2
+PSMI_CTX	chipsec_km.c	/^typedef SMI_CONTEXT SMI_CTX, *PSMI_CTX; $/;"	t	file:
+ReadCR0	amd64/cpu.asm	/^ReadCR0:$/;"	l
+ReadCR0	chipsec_km.c	/^    unsigned long ReadCR0(void);$/;"	p	file:	signature:(void)
+ReadCR0	i386/cpu.asm	/^ ReadCR0:$/;"	l
+ReadCR2	amd64/cpu.asm	/^ReadCR2:$/;"	l
+ReadCR2	chipsec_km.c	/^    unsigned long ReadCR2(void);$/;"	p	file:	signature:(void)
+ReadCR2	i386/cpu.asm	/^ ReadCR2:$/;"	l
+ReadCR3	amd64/cpu.asm	/^ReadCR3:$/;"	l
+ReadCR3	chipsec_km.c	/^    unsigned long ReadCR3(void);$/;"	p	file:	signature:(void)
+ReadCR3	i386/cpu.asm	/^ ReadCR3:$/;"	l
+ReadCR4	amd64/cpu.asm	/^ReadCR4:$/;"	l
+ReadCR4	chipsec_km.c	/^    unsigned long ReadCR4(void);$/;"	p	file:	signature:(void)
+ReadCR4	i386/cpu.asm	/^ ReadCR4:$/;"	l
+ReadCR8	amd64/cpu.asm	/^ReadCR8:$/;"	l
+ReadCR8	chipsec_km.c	/^    unsigned long ReadCR8(void);$/;"	p	file:	signature:(void)
+ReadIOPort	chipsec_km.c	/^ReadIOPort($/;"	f	signature:( uint16_t io_port, uint8_t len )
+ReadPCIByte	amd64/cpu.asm	/^ReadPCIByte:$/;"	l
+ReadPCIByte	chipsec_km.c	/^  ReadPCIByte ($/;"	p	file:	signature:( unsigned int pci_reg, unsigned short cfg_data_port )
+ReadPCIByte	i386/cpu.asm	/^ ReadPCIByte:$/;"	l
+ReadPCICfg	chipsec_km.c	/^ReadPCICfg($/;"	f	signature:( uint8_t bus, uint8_t dev, uint8_t fun, uint8_t off, uint8_t len )
+ReadPCIDword	amd64/cpu.asm	/^ReadPCIDword:$/;"	l
+ReadPCIDword	chipsec_km.c	/^  ReadPCIDword ($/;"	p	file:	signature:( unsigned int pci_reg, unsigned short cfg_data_port )
+ReadPCIDword	i386/cpu.asm	/^ ReadPCIDword:$/;"	l
+ReadPCIWord	amd64/cpu.asm	/^ReadPCIWord: $/;"	l
+ReadPCIWord	chipsec_km.c	/^  ReadPCIWord ($/;"	p	file:	signature:( unsigned int pci_reg, unsigned short cfg_data_port )
+ReadPCIWord	i386/cpu.asm	/^ ReadPCIWord:$/;"	l
+ReadPortByte	amd64/cpu.asm	/^ReadPortByte:$/;"	l
+ReadPortByte	chipsec_km.c	/^  ReadPortByte ($/;"	p	file:	signature:( unsigned short port_num )
+ReadPortByte	i386/cpu.asm	/^ ReadPortByte:$/;"	l
+ReadPortDword	amd64/cpu.asm	/^ReadPortDword: $/;"	l
+ReadPortDword	chipsec_km.c	/^  ReadPortDword ($/;"	p	file:	signature:( unsigned short port_num )
+ReadPortDword	i386/cpu.asm	/^ ReadPortDword:$/;"	l
+ReadPortWord	amd64/cpu.asm	/^ReadPortWord: $/;"	l
+ReadPortWord	chipsec_km.c	/^  ReadPortWord ($/;"	p	file:	signature:( unsigned short port_num )
+ReadPortWord	i386/cpu.asm	/^ ReadPortWord:$/;"	l
+SMI_CONTEXT	chipsec_km.c	/^} SMI_CONTEXT, *SMI_PCONTEXT;$/;"	t	typeref:struct:tagSMI_CONTEXT	file:
+SMI_CTX	chipsec_km.c	/^typedef SMI_CONTEXT SMI_CTX, *PSMI_CTX; $/;"	t	file:
+SMI_PCONTEXT	chipsec_km.c	/^} SMI_CONTEXT, *SMI_PCONTEXT;$/;"	t	typeref:struct:tagSMI_CONTEXT	file:
+SendAPMSMI	amd64/cpu.asm	/^SendAPMSMI:$/;"	l
+SendAPMSMI	i386/cpu.asm	/^ SendAPMSMI:$/;"	l
+WriteCR0	amd64/cpu.asm	/^WriteCR0:$/;"	l
+WriteCR0	chipsec_km.c	/^    void WriteCR0( unsigned long );$/;"	p	file:	signature:( unsigned long )
+WriteCR0	i386/cpu.asm	/^ WriteCR0:$/;"	l
+WriteCR2	amd64/cpu.asm	/^WriteCR2:$/;"	l
+WriteCR2	chipsec_km.c	/^    void WriteCR2( unsigned long );$/;"	p	file:	signature:( unsigned long )
+WriteCR2	i386/cpu.asm	/^ WriteCR2:$/;"	l
+WriteCR3	amd64/cpu.asm	/^WriteCR3:$/;"	l
+WriteCR3	chipsec_km.c	/^    void WriteCR3( unsigned long );$/;"	p	file:	signature:( unsigned long )
+WriteCR3	i386/cpu.asm	/^ WriteCR3:$/;"	l
+WriteCR4	amd64/cpu.asm	/^WriteCR4:$/;"	l
+WriteCR4	chipsec_km.c	/^    void WriteCR4( unsigned long );$/;"	p	file:	signature:( unsigned long )
+WriteCR4	i386/cpu.asm	/^ WriteCR4:$/;"	l
+WriteCR8	amd64/cpu.asm	/^WriteCR8:$/;"	l
+WriteCR8	chipsec_km.c	/^    void WriteCR8( unsigned long );$/;"	p	file:	signature:( unsigned long )
+WriteHighCMOSByte	amd64/cpu.asm	/^WriteHighCMOSByte:$/;"	l
+WriteHighCMOSByte	i386/cpu.asm	/^ WriteHighCMOSByte:$/;"	l
+WriteIOPort	chipsec_km.c	/^WriteIOPort($/;"	f	signature:( uint32_t value, uint16_t io_port, uint8_t len )
+WriteLowCMOSByte	amd64/cpu.asm	/^WriteLowCMOSByte:$/;"	l
+WriteLowCMOSByte	i386/cpu.asm	/^ WriteLowCMOSByte:$/;"	l
+WritePCIByte	amd64/cpu.asm	/^WritePCIByte:$/;"	l
+WritePCIByte	chipsec_km.c	/^  WritePCIByte ($/;"	p	file:	signature:( unsigned int pci_reg, unsigned short cfg_data_port, unsigned char byte_value )
+WritePCIByte	i386/cpu.asm	/^ WritePCIByte:$/;"	l
+WritePCICfg	chipsec_km.c	/^WritePCICfg($/;"	f	signature:( uint8_t bus, uint8_t dev, uint8_t fun, uint8_t off, uint8_t len, uint32_t val )
+WritePCIDword	amd64/cpu.asm	/^WritePCIDword: $/;"	l
+WritePCIDword	chipsec_km.c	/^  WritePCIDword ($/;"	p	file:	signature:( unsigned int pci_reg, unsigned short cfg_data_port, unsigned int dword_value )
+WritePCIDword	i386/cpu.asm	/^ WritePCIDword:$/;"	l
+WritePCIWord	amd64/cpu.asm	/^WritePCIWord:$/;"	l
+WritePCIWord	chipsec_km.c	/^  WritePCIWord ($/;"	p	file:	signature:( unsigned int pci_reg, unsigned short cfg_data_port, unsigned short word_value )
+WritePCIWord	i386/cpu.asm	/^ WritePCIWord:$/;"	l
+WritePortByte	amd64/cpu.asm	/^WritePortByte:$/;"	l
+WritePortByte	chipsec_km.c	/^  WritePortByte ($/;"	p	file:	signature:( unsigned char out_value, unsigned short port_num )
+WritePortByte	i386/cpu.asm	/^ WritePortByte:$/;"	l
+WritePortDword	amd64/cpu.asm	/^WritePortDword: $/;"	l
+WritePortDword	chipsec_km.c	/^  WritePortDword ($/;"	p	file:	signature:( unsigned int out_value, unsigned short port_num )
+WritePortDword	i386/cpu.asm	/^ WritePortDword:$/;"	l
+WritePortWord	amd64/cpu.asm	/^WritePortWord: $/;"	l
+WritePortWord	chipsec_km.c	/^  WritePortWord ($/;"	p	file:	signature:( unsigned short out_value, unsigned short port_num )
+WritePortWord	i386/cpu.asm	/^ WritePortWord:$/;"	l
+_DESCRIPTOR_TABLE_RECORD	include/chipsec.h	/^typedef struct _DESCRIPTOR_TABLE_RECORD {$/;"	s
+_DESCRIPTOR_TABLE_RECORD::base	include/chipsec.h	/^  physaddr_t base;$/;"	m	struct:_DESCRIPTOR_TABLE_RECORD	access:public
+_DESCRIPTOR_TABLE_RECORD::limit	include/chipsec.h	/^  uint16_t    limit;$/;"	m	struct:_DESCRIPTOR_TABLE_RECORD	access:public
+_GNU_SOURCE	chipsec_km.c	39;"	d	file:
+__anon2::__anon3::high	include/chipsec.h	/^       int32_t high;$/;"	m	struct:__anon2::__anon3	access:public
+__anon2::__anon3::low	include/chipsec.h	/^       uint32_t low;$/;"	m	struct:__anon2::__anon3	access:public
+__anon2::quadpart	include/chipsec.h	/^   physaddr_t quadpart;$/;"	m	union:__anon2	access:public
+__anon2::u	include/chipsec.h	/^   } u;$/;"	m	union:__anon2	typeref:struct:__anon2::__anon3	access:public
+__cached_gcc_-print-file-name_include	.cache.mk	/^__cached_gcc_-print-file-name_include := \/usr\/lib\/gcc\/x86_64-linux-gnu\/7\/include$/;"	m
+__cpuid__	amd64/cpu.asm	/^__cpuid__:$/;"	l
+__cpuid__	chipsec_km.c	/^    void __cpuid__(CPUID_CTX * ctx);$/;"	p	file:	signature:(CPUID_CTX * ctx)
+__cpuid__	chipsec_km.c	/^  void __cpuid__(CPUID_CTX * ctx);$/;"	p	file:	signature:(CPUID_CTX * ctx)
+__cpuid__	i386/cpu.asm	/^__cpuid__:$/;"	l
+__swsmi__	amd64/cpu.asm	/^__swsmi__:$/;"	l
+__swsmi__	chipsec_km.c	/^ void __swsmi__(SMI_CTX * ctx); $/;"	p	file:	signature:(SMI_CTX * ctx)
+__swsmi__	i386/cpu.asm	/^__swsmi__:$/;"	l
+__this_module	chipsec.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	chipsec.mod.c	/^__used$/;"	v	file:
+_eflags	i386/cpu.asm	/^ _eflags:$/;"	l
+_load_gdt	amd64/cpu.asm	/^_load_gdt: $/;"	l
+_load_gdtr	amd64/cpu.asm	/^_load_gdtr: $/;"	l
+_load_idtr	amd64/cpu.asm	/^_load_idtr:$/;"	l
+_load_idtr	i386/cpu.asm	/^ _load_idtr:$/;"	l
+_load_ldtr	amd64/cpu.asm	/^_load_ldtr: $/;"	l
+_rdmsr	amd64/cpu.asm	/^_rdmsr: $/;"	l
+_rdmsr	chipsec_km.c	/^  void _rdmsr( $/;"	p	file:	signature:( unsigned long msr_num, unsigned long * msr_lo, unsigned long * msr_hi )
+_rdmsr	i386/cpu.asm	/^ _rdmsr:$/;"	l
+_rflags	amd64/cpu.asm	/^_rflags:$/;"	l
+_store_gdtr	amd64/cpu.asm	/^_store_gdtr: $/;"	l
+_store_gdtr	chipsec_km.c	/^ void _store_gdtr($/;"	p	file:	signature:( uint16_t *address )
+_store_gdtr	i386/cpu.asm	/^ _store_gdtr:$/;"	l
+_store_idtr	amd64/cpu.asm	/^_store_idtr:$/;"	l
+_store_idtr	chipsec_km.c	/^  void _store_idtr($/;"	p	file:	signature:( uint16_t *address )
+_store_idtr	i386/cpu.asm	/^ _store_idtr:$/;"	l
+_store_ldtr	amd64/cpu.asm	/^_store_ldtr:$/;"	l
+_store_ldtr	chipsec_km.c	/^ void _store_ldtr($/;"	p	file:	signature:( uint16_t *address )
+_store_ldtr	i386/cpu.asm	/^ _store_ldtr:$/;"	l
+_wrmsr	amd64/cpu.asm	/^_wrmsr: $/;"	l
+_wrmsr	chipsec_km.c	/^  void _wrmsr( $/;"	p	file:	signature:( unsigned long msr_num, unsigned long msr_hi, unsigned long msr_lo )
+_wrmsr	i386/cpu.asm	/^ _wrmsr:$/;"	l
+a	chipsec_km.c	/^   unsigned long a;   \/\/ rax - 0x00; eax - 0x0$/;"	m	struct:tagCONTEXT	file:	access:public
+a1	chipsec_km.c	/^unsigned long a1=0;$/;"	v
+a2	chipsec_km.c	/^unsigned long a2=0;$/;"	v
+allocated_mem_list	chipsec_km.c	/^struct allocated_mem_list allocated_mem_list;$/;"	v	typeref:struct:allocated_mem_list
+allocated_mem_list	include/chipsec.h	/^struct allocated_mem_list {$/;"	s
+allocated_mem_list::list	include/chipsec.h	/^  struct list_head list;$/;"	m	struct:allocated_mem_list	typeref:struct:allocated_mem_list::list_head	access:public
+allocated_mem_list::pa	include/chipsec.h	/^  physaddr_t pa;$/;"	m	struct:allocated_mem_list	access:public
+allocated_mem_list::va	include/chipsec.h	/^  void *va;$/;"	m	struct:allocated_mem_list	access:public
+asm-path	Makefile	/^	asm-path := amd64$/;"	m
+asm-path	Makefile	/^	asm-path := i386$/;"	m
+b	chipsec_km.c	/^   unsigned long b;   \/\/ rbx - 0x08; ebx - 0x4$/;"	m	struct:tagCONTEXT	file:	access:public
+base	include/chipsec.h	/^  physaddr_t base;$/;"	m	struct:_DESCRIPTOR_TABLE_RECORD	access:public
+c	chipsec_km.c	/^   unsigned long c;     \/\/ rcx - 0x00;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+c	chipsec_km.c	/^   unsigned long c;   \/\/ rcx - 0x10; ecx - 0x8$/;"	m	struct:tagCONTEXT	file:	access:public
+chipsec-objs	Makefile	/^chipsec-objs := chipsec_km.o $(asm-path)\/cpu.o$/;"	m
+chipsec_dev	chipsec_km.c	/^static struct miscdevice chipsec_dev = {$/;"	v	typeref:struct:miscdevice	file:
+cleanup_module	chipsec_km.c	/^void cleanup_module (void)$/;"	f	signature:(void)
+cs_phys_mem_access_prot	chipsec_km.c	/^static pgprot_t cs_phys_mem_access_prot(struct file *file, unsigned long pfn,$/;"	f	file:	signature:(struct file *file, unsigned long pfn, unsigned long size, pgprot_t vma_prot)
+d	chipsec_km.c	/^   unsigned long d;     \/\/ rdx - 0x08;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+d	chipsec_km.c	/^   unsigned long d;   \/\/ rdx - 0x18; edx - 0xc$/;"	m	struct:tagCONTEXT	file:	access:public
+d_ioctl	chipsec_km.c	/^static long d_ioctl(struct file *file, unsigned int ioctl_num, unsigned long ioctl_param)$/;"	f	file:	signature:(struct file *file, unsigned int ioctl_num, unsigned long ioctl_param)
+dbgprint	include/chipsec.h	71;"	d
+dbgprint	include/chipsec.h	76;"	d
+elf-size	Makefile	/^	elf-size := elf32$/;"	m
+elf-size	Makefile	/^	elf-size := elf64$/;"	m
+find_symbols	chipsec_km.c	/^int find_symbols(void) $/;"	f	signature:(void)
+gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-mindirect-branch_thunk-extern_-mindirect-branch-register_-fno-delete-null-pointer-checks_-Wno-frame-address_-Wno-format-truncation_-Wno-format-overflow_-Wno-int-in-bool-context__-O2__--param_allow-store-data-races_0	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-mindirect-branch_thunk-extern_-mindirect-branch-register_-fno-delete-null-pointer-checks_-Wno-frame-address_-Wno-format-truncation_-Wno-format-overflow_-Wno-int-in-bool-context__-O2__--param_allow-store-data-races_0 := y$/;"	m
+gcc-version.sh_-p_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_-p_gcc := 070400$/;"	m
+gcc-version.sh_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_gcc := 0704$/;"	m
+get_unmapped_area_mem	chipsec_km.c	/^static unsigned long get_unmapped_area_mem(struct file *file,$/;"	f	file:	signature:(struct file *file, unsigned long addr, unsigned long len, unsigned long pgoff, unsigned long flags)
+get_unmapped_area_mem	chipsec_km.c	536;"	d	file:
+guess_page_is_ram	chipsec_km.c	/^int (*guess_page_is_ram)(unsigned long pagenr);$/;"	v
+guess_phys_mem_access_prot	chipsec_km.c	/^pgprot_t (*guess_phys_mem_access_prot)(struct file *file, unsigned long pfn,$/;"	v
+high	include/chipsec.h	/^       int32_t high;$/;"	m	struct:__anon2::__anon3	access:public
+hypercall	amd64/cpu.asm	/^hypercall:$/;"	l
+hypercall	chipsec_km.c	/^  hypercall($/;"	p	file:	signature:( unsigned long rcx_val, unsigned long rdx_val, unsigned long r8_val, unsigned long r9_val, unsigned long r10_val, unsigned long r11_val, unsigned long rax_val, unsigned long rbx_val, unsigned long rdi_val, unsigned long rsi_val, unsigned long xmm_buffer, unsigned long hypercall_page )
+hypercall	i386/cpu.asm	/^ hypercall:$/;"	l
+hypercall_page	amd64/cpu.asm	/^hypercall_page:$/;"	l
+hypercall_page	chipsec_km.c	/^  unsigned long hypercall_page(void);$/;"	p	file:	signature:(void)
+hypercall_page	i386/cpu.asm	/^ hypercall_page:$/;"	l
+hypercall_skip_xmm	amd64/cpu.asm	/^  hypercall_skip_xmm:$/;"	l
+hypercall_skip_xmm	i386/cpu.asm	/^  hypercall_skip_xmm:$/;"	l
+init_module	chipsec_km.c	/^init_module (void)$/;"	f	signature:(void)
+limit	include/chipsec.h	/^  uint16_t    limit;$/;"	m	struct:_DESCRIPTOR_TABLE_RECORD	access:public
+list	include/chipsec.h	/^  struct list_head list;$/;"	m	struct:allocated_mem_list	typeref:struct:allocated_mem_list::list_head	access:public
+low	include/chipsec.h	/^       uint32_t low;$/;"	m	struct:__anon2::__anon3	access:public
+mem_fops	chipsec_km.c	/^static const struct file_operations mem_fops = {$/;"	v	typeref:struct:file_operations	file:
+memory_lseek	chipsec_km.c	/^static loff_t memory_lseek(struct file * file, loff_t offset, int orig)$/;"	f	file:	signature:(struct file * file, loff_t offset, int orig)
+mmap_mem	chipsec_km.c	/^static int mmap_mem(struct file * file, struct vm_area_struct * vma)$/;"	f	file:	signature:(struct file * file, struct vm_area_struct * vma)
+mmap_mem_ops	chipsec_km.c	/^static const struct vm_operations_struct mmap_mem_ops = {$/;"	v	typeref:struct:vm_operations_struct	file:
+my_unxlate_dev_mem_ptr	chipsec_km.c	/^void my_unxlate_dev_mem_ptr(unsigned long phys,void *addr)$/;"	f	signature:(unsigned long phys,void *addr)
+my_xlate_dev_mem_ptr	chipsec_km.c	/^void *my_xlate_dev_mem_ptr(unsigned long phys)$/;"	f	signature:(unsigned long phys)
+open_port	chipsec_km.c	/^static int open_port(struct inode * inode, struct file * filp)$/;"	f	file:	signature:(struct inode * inode, struct file * filp)
+pa	include/chipsec.h	/^  physaddr_t pa;$/;"	m	struct:allocated_mem_list	access:public
+patch_apply_ucode	chipsec_km.c	/^void * patch_apply_ucode(void * ucode_buf)$/;"	f	signature:(void * ucode_buf)
+patch_bios_sign	chipsec_km.c	/^void * patch_bios_sign(void * ucode_buf)$/;"	f	signature:(void * ucode_buf)
+patch_cpuid_0	chipsec_km.c	/^void * patch_cpuid_0(void * CPUInfo)$/;"	f	signature:(void * CPUInfo)
+patch_read_msr	chipsec_km.c	/^void * patch_read_msr(void * CPUInfo)$/;"	f	signature:(void * CPUInfo)
+phys_mem_access_prot_allowed	chipsec_km.c	/^int __weak phys_mem_access_prot_allowed(struct file *file,$/;"	f	signature:(struct file *file, unsigned long pfn, unsigned long size, pgprot_t *vma_prot)
+physaddr_t	include/chipsec.h	/^typedef __u32 physaddr_t;$/;"	t
+physaddr_t	include/chipsec.h	/^typedef u64 physaddr_t;$/;"	t
+print_stat	chipsec_km.c	/^void print_stat(efi_status_t stat)$/;"	f	signature:(efi_status_t stat)
+private_mapping_ok	chipsec_km.c	/^static inline int private_mapping_ok(struct vm_area_struct *vma)$/;"	f	file:	signature:(struct vm_area_struct *vma)
+program_name	chipsec_km.c	/^const char program_name[] = "chipsec";$/;"	v
+quadpart	include/chipsec.h	/^   physaddr_t quadpart;$/;"	m	union:__anon2	access:public
+r10	chipsec_km.c	/^   unsigned long r10;   \/\/ r10 - 0x20;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+r11	chipsec_km.c	/^   unsigned long r11;   \/\/ r11 - 0x28;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+r12	chipsec_km.c	/^   unsigned long r12;   \/\/ r12 - 0x30;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+r8	chipsec_km.c	/^   unsigned long r8;     \/\/ r8 - 0x10;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+r9	chipsec_km.c	/^   unsigned long r9;     \/\/ r9 - 0x18;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+read_mem	chipsec_km.c	/^static ssize_t read_mem(struct file * file, char __user * buf, size_t count, loff_t *ppos)$/;"	f	file:	signature:(struct file * file, char __user * buf, size_t count, loff_t *ppos)
+setctx	amd64/cpu.asm	/^setctx:$/;"	l
+setctx_cpuid	amd64/cpu.asm	/^setctx_cpuid:$/;"	l
+setctx_cpuid	i386/cpu.asm	/^setctx_cpuid:$/;"	l
+tagCONTEXT	chipsec_km.c	/^typedef struct tagCONTEXT {$/;"	s	file:
+tagCONTEXT::a	chipsec_km.c	/^   unsigned long a;   \/\/ rax - 0x00; eax - 0x0$/;"	m	struct:tagCONTEXT	file:	access:public
+tagCONTEXT::b	chipsec_km.c	/^   unsigned long b;   \/\/ rbx - 0x08; ebx - 0x4$/;"	m	struct:tagCONTEXT	file:	access:public
+tagCONTEXT::c	chipsec_km.c	/^   unsigned long c;   \/\/ rcx - 0x10; ecx - 0x8$/;"	m	struct:tagCONTEXT	file:	access:public
+tagCONTEXT::d	chipsec_km.c	/^   unsigned long d;   \/\/ rdx - 0x18; edx - 0xc$/;"	m	struct:tagCONTEXT	file:	access:public
+tagSMI_CONTEXT	chipsec_km.c	/^typedef struct tagSMI_CONTEXT {$/;"	s	file:
+tagSMI_CONTEXT::c	chipsec_km.c	/^   unsigned long c;     \/\/ rcx - 0x00;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+tagSMI_CONTEXT::d	chipsec_km.c	/^   unsigned long d;     \/\/ rdx - 0x08;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+tagSMI_CONTEXT::r10	chipsec_km.c	/^   unsigned long r10;   \/\/ r10 - 0x20;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+tagSMI_CONTEXT::r11	chipsec_km.c	/^   unsigned long r11;   \/\/ r11 - 0x28;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+tagSMI_CONTEXT::r12	chipsec_km.c	/^   unsigned long r12;   \/\/ r12 - 0x30;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+tagSMI_CONTEXT::r8	chipsec_km.c	/^   unsigned long r8;     \/\/ r8 - 0x10;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+tagSMI_CONTEXT::r9	chipsec_km.c	/^   unsigned long r9;     \/\/ r9 - 0x18;$/;"	m	struct:tagSMI_CONTEXT	file:	access:public
+u	include/chipsec.h	/^   } u;$/;"	m	union:__anon2	typeref:struct:__anon2::__anon3	access:public
+uncached_access	chipsec_km.c	/^static inline int uncached_access(struct file *file, unsigned long addr)$/;"	f	file:	signature:(struct file *file, unsigned long addr)
+va	include/chipsec.h	/^  void *va;$/;"	m	struct:allocated_mem_list	access:public
+valid_mmap_phys_addr_range	chipsec_km.c	/^int valid_mmap_phys_addr_range(unsigned long pfn, size_t size)$/;"	f	signature:(unsigned long pfn, size_t size)
+valid_mmap_phys_addr_range	chipsec_km.c	/^static inline int valid_mmap_phys_addr_range(unsigned long pfn, size_t size)$/;"	f	file:	signature:(unsigned long pfn, size_t size)
+valid_phys_addr_range	chipsec_km.c	/^static inline int valid_phys_addr_range(phys_addr_t addr, size_t count)$/;"	f	file:	signature:(phys_addr_t addr, size_t count)
+write_mem	chipsec_km.c	/^static ssize_t write_mem(struct file * file, const char __user * buf, size_t count, loff_t *ppos)$/;"	f	file:	signature:(struct file * file, const char __user * buf, size_t count, loff_t *ppos)
