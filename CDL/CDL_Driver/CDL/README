@@ -1,0 +1,38 @@
+# This is the README file of the driver for AMD Diagnostics Suite.
+
+1. Introduction
+   TBD
+
+2. Driver Structure
+   TBD
+
+3. Driver Compilation
+   Run 'make' from the source directory.
+
+4. Driver Installation
+   4.1 Driver Package Creation
+
+     4.1.1 with DKMS
+       [NOTE] to create a package with DKMS, please install the dkms.
+              $ sudo apt-get install dkms
+
+       Following is the steps for the package creation.
+       $ sudo cp -r ~/amddiagdriver /usr/src/amddiag-X.YY
+       $ cd /usr/src/amddiag-X.YY/
+       [NOTE] X.YY is the package version specified in the dkms.conf, not the
+              driver version.
+       $ vi dkms.conf
+       [NOTE] the PACKAGE_VERSION in the dkms.conf must be matched to X.YY
+       $ sudo dkms add -m amddiag -v X.YY
+       $ sudo dkms build -m amddiag -v X.YY
+       $ sudo dkms mkdeb -m amddiag -v X.YY
+       [NOTE] as the result, debian package of the driver will be created under
+              /var/lib/dkms/amddiag/X.YY/deb/amddiag-dkms_X.YY.deb
+
+   4.2 Driver Package Installation
+
+     4.2.1 with DKMS
+       $ sudo dpkg -i ~/amddiag-dkms_X.YY.deb
+
+5. Driver Configuration
+   TBD

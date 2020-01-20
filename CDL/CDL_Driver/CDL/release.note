@@ -1,0 +1,48 @@
+# This is the release note of the driver for AMD Diagnostics Suite.
+
+----------------------------------------------------------------------------
+    revisions   |                           notes
+----------------------------------------------------------------------------
+    1.00.00     | 05/14/2018
+                | The module name changed back to 'CDL-Driver' from 'amddiag'
+                | to maintain compatibility to the current CDL structure.
+                | [NOTE] Under the 'one diag' strategy, the name will be 
+                |        changed to a new one when the driver is merged.
+                | 
+                | Found and added back the following IOCTLs to the driver.
+                |   • IOCTL_EXECUTE_INVLPGB_INSTRUCTION
+                |   • IOCTL_EXECUTE_TLBSYNC_INSTRUCTION
+                |   • IOCTL_SET_PTE
+                | 
+    0.99.00     | 04/06/2018
+                | The driver is prepared for code review.
+                | Once the review complete, it will be released as 1.00.00
+                | 
+       0.45     | 03/01/2018
+                | The driver is now enabled with all IOCTL commands support.
+                | With this driver, majority of the test cases under the
+                | 'Local_APIC_Suite' have been verified.
+                |
+       0.40     | 02/27/2018
+                | The 'vector_irq' table related issue has been fixed.
+                | Kprobe module added for debugging assitance.
+                |
+       0.30     | 02/20/2018
+                | Restructured the driver source tree.
+                |
+       0.21     | 02/11/2018
+                | Updated the driver so that it can modify individual IDT
+                | entries directly, instead of swapping the whole IDT table.
+                |
+       0.20     | 01/19/2018
+                | Verified interrupt and exception tests are passed with
+                | the driver (Interrupt_Tool and NMICheck).
+                | 
+       0.10     | 12/21/2017
+                | Modified the driver and made LCS (Linux Coding Standards).
+                |
+       0.01     | 11/12/2017
+                | First draft
+                | The kernel APIs have been updated to reflect the relevant
+                | chagnes in the kernel - things are subject to change.
+----------------------------------------------------------------------------

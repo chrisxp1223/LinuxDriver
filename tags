@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KERNEL_DIR	Makefile	/^KERNEL_DIR   = \/usr\/src\/linux-headers-$(KVERSION)\/$/;"	m
+KVERSION	Makefile	/^KVERSION    := $(shell uname -r)$/;"	m
+MAJOR_NUM	hello_world.c	10;"	d	file:
+MODULE_NAME	Makefile	/^MODULE_NAME  = hello_world$/;"	m
+MODULE_NAME	hello_world.c	11;"	d	file:
+PWD	Makefile	/^PWD         := $(shell pwd)$/;"	m
+__cached_gcc_-print-file-name_include	.cache.mk	/^__cached_gcc_-print-file-name_include := \/usr\/lib\/gcc\/x86_64-linux-gnu\/7\/include$/;"	m
+drv_fops	hello_world.c	/^struct file_operations drv_fops = {$/;"	v	typeref:struct:file_operations
+drv_ioctl	hello_world.c	/^int drv_ioctl(struct inode *inode, struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	signature:(struct inode *inode, struct file *filp, unsigned int cmd, unsigned long arg)
+drv_open	hello_world.c	/^static int drv_open(struct inode *inode, struct file *filp)$/;"	f	file:	signature:(struct inode *inode, struct file *filp)
+drv_read	hello_world.c	/^static ssize_t drv_read(struct file *filp, char *buf, size_t count, loff_t *ppos)$/;"	f	file:	signature:(struct file *filp, char *buf, size_t count, loff_t *ppos)
+drv_release	hello_world.c	/^static int drv_release(struct inode *inode, struct file *filp)$/;"	f	file:	signature:(struct inode *inode, struct file *filp)
+drv_write	hello_world.c	/^static ssize_t drv_write(struct file *filp, const char *buf, size_t count, loff_t *ppos)$/;"	f	file:	signature:(struct file *filp, const char *buf, size_t count, loff_t *ppos)
+gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-mindirect-branch_thunk-extern_-mindirect-branch-register_-fno-delete-null-pointer-checks_-Wno-frame-address_-Wno-format-truncation_-Wno-format-overflow_-Wno-int-in-bool-context__-O2__--param_allow-store-data-races_0	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-fno-PIE_-mno-sse_-mno-mmx_-mno-sse2_-mno-3dnow_-mno-avx_-m64_-falign-jumps_1_-falign-loops_1_-mno-80387_-mno-fp-ret-in-387_-mpreferred-stack-boundary_3_-mskip-rax-setup_-mtune_generic_-mno-red-zone_-mcmodel_kernel_-funit-at-a-time_-DCONFIG_X86_X32_ABI_-DCONFIG_AS_CFI_1_-DCONFIG_AS_CFI_SIGNAL_FRAME_1_-DCONFIG_AS_CFI_SECTIONS_1_-DCONFIG_AS_FXSAVEQ_1_-DCONFIG_AS_SSSE3_1_-DCONFIG_AS_CRC32_1_-DCONFIG_AS_AVX_1_-DCONFIG_AS_AVX2_1_-DCONFIG_AS_AVX512_1_-DCONFIG_AS_SHA1_NI_1_-DCONFIG_AS_SHA256_NI_1_-pipe_-Wno-sign-compare_-fno-asynchronous-unwind-tables_-mindirect-branch_thunk-extern_-mindirect-branch-register_-fno-delete-null-pointer-checks_-Wno-frame-address_-Wno-format-truncation_-Wno-format-overflow_-Wno-int-in-bool-context__-O2__--param_allow-store-data-races_0 := y$/;"	m
+gcc-version.sh_-p_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_-p_gcc := 070400$/;"	m
+gcc-version.sh_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_gcc := 0704$/;"	m
+hello_dev	hello_world.c	/^dev_t hello_dev;$/;"	v
+hello_world_exit	hello_world.c	/^module_exit(hello_world_exit);$/;"	v
+hello_world_exit	hello_world.c	/^static void __exit hello_world_exit(void)$/;"	f	file:	signature:(void)
+hello_world_init	hello_world.c	/^module_init(hello_world_init);$/;"	v
+hello_world_init	hello_world.c	/^static int __init hello_world_init (void)$/;"	f	file:	signature:(void)
+obj-m	Makefile	/^obj-m       := $(MODULE_NAME).o$/;"	m
